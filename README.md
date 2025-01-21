@@ -30,27 +30,29 @@ The setup ensures the infrastructure is **free-tier eligible** and follows best 
 ### 1. Clone the repository
 bash
 
-git clone https://github.com/bho0920/terraform-aws-vpc-ec2.git
-cd terraform-aws-vpc-ec2
+> git clone https://github.com/bho0920/terraform-aws-vpc-ec2.git
+> 
+> cd terraform-aws-vpc-ec2
 
 
 ### 2. Set up your AWS credentials
-- Make sure your AWS credentials are configured. You can use the AWS CLI to configure them:
+Make sure your AWS credentials are configured. You can use the AWS CLI to configure them:
+
 bash 
-'aws configure'
+> aws configure
 
 ### 3. Initialize Terraform
 bash
-'terraform init'
+> terraform init
 
 ### 4. Plan the deployment
 bash
-'terraform plan'
+> terraform plan
   This will show you an execution plan, detailing what resources Terraform will create or modify.
 
 ### 5. Apply the deployment
 bash
-'terraform apply'
+> terraform apply
 
 ### 6. Verify the Resources
 Once the deployment is complete, you can log into the AWS Console and verify that the following resources were created:
@@ -69,7 +71,8 @@ This infrastructure is free-tier eligible and should remain within the free-tier
 
 To clean up and destroy the resources created by Terraform, run:
 bash
-'terraform destroy'
+> terraform destroy
+>
 This will terminate all resources and prevent further charges from AWS.
 
 ## Conclusion
