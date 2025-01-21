@@ -13,9 +13,6 @@ The setup ensures the infrastructure is **free-tier eligible** and follows best 
 - **Network ACLs and Security Groups**: Configures Network ACLs and Security Groups to ensure proper access control for resources.
 - **EC2 Instance**: Deploys an EC2 instance in a public subnet, using Amazon Linux 2023, free-tier eligible.
 
-## Architecture Diagram
-
-![Architecture Diagram](path/to/architecture_diagram.png)
 
 ## Requirements
 
