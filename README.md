@@ -29,8 +29,10 @@ The setup ensures the infrastructure is **free-tier eligible** and follows best 
 
 ### 1. Clone the repository
 bash
-'git clone https://github.com/bho0920/terraform-aws-vpc-ec2.git'
-'cd terraform-aws-vpc-ec2' 
+'''
+git clone https://github.com/bho0920/terraform-aws-vpc-ec2.git
+cd terraform-aws-vpc-ec2
+'''
 
 ### 2. Set up your AWS credentials
 - Make sure your AWS credentials are configured. You can use the AWS CLI to configure them:
